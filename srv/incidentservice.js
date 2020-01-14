@@ -11,5 +11,5 @@ module.exports = function (service) {
     )
   }
   )
-  service.on("SafetyIncident/Created", msg=>{console.log('Message received',msg.data)})
+  service.on("SafetyIncident/Created", msg=>{console.log('Message received from server',msg.data)})
 }
