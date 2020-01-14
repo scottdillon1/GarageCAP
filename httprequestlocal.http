@@ -1,0 +1,11 @@
+post http://localhost:4004/incident/SafetyIncidents
+Content-Type: application/json
+
+{
+"title" : "Faulty Server ",
+"description" : "Frayed Wire;",
+"category_code" : "hardware",
+"priority_code" : "High",
+"incidentStatus_code" : "new",
+"assignedIndividual_ID" : "067460c5-196c-4783-9563-ede797399da8"
+ }
