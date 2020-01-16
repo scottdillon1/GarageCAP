@@ -32,7 +32,9 @@
             },
             "messaging": {
                 "_kind": "enterprise-messaging",
-                "credentials": {"queue" : "SafetyIncidents"},
+                "credentials": {
+                    "queue": "SafetyIncidents"
+                },
                 "kind": "file-based-messaging"
             }
         },
